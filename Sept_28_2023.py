@@ -1,8 +1,4 @@
-September 28th, 2023 | Sorting arrays by parity | even to odd:
-
-<p>'''
-  class Solution(object):
-    
+class Solution(object):
     def sortArrayByParity(self,nums):
         self.numl = nums
         parity_nums = []
@@ -25,8 +21,5 @@ September 28th, 2023 | Sorting arrays by parity | even to odd:
                 parity_nums.append(y)
             tick = False
         return parity_nums
-        
-t = Solution() <br>
-t.sortArrayByParity([3,1,2,4])<br>
-'''
-</p>
+t = Solution()
+t.sortArrayByParity([3,1,2,4])
